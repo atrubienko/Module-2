@@ -1,0 +1,33 @@
+.faq>details {
+  background-color: #fff;
+  color: #1C1A1A;
+  font-weight: 700;
+  font-size: 24px;
+  padding: 30px 70px;
+  margin-bottom: 20px;
+  
+}
+
+.faq>details:nth-of-type(2n) {
+background-color: #440F51;
+color: #fff;
+}
+
+.faq summary {
+  list-style: none;   
+
+}
+
+.faq>details:nth-of-type(odd) summary::after { 
+  content: url("../2.2/img/open-purple.svg");
+  float: right;
+  width: 46px;
+  height: 46px;
+  }
+
+  .faq>details:nth-of-type(even) summary::after {
+    content: url("../2.2/img/open.svg");
+    float: right;
+    width: 46px;
+    height: 46px;
+}
