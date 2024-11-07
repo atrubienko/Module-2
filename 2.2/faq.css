@@ -4,8 +4,11 @@
   font-weight: 700;
   font-size: 24px;
   padding: 30px 70px;
-  margin-bottom: 20px;
   
+}
+
+.faq>details:not(:last-child){
+  margin-bottom: 20px;
 }
 
 .faq>details:nth-of-type(2n) {
@@ -15,19 +18,24 @@ color: #fff;
 
 .faq summary {
   list-style: none;   
-
+position: relative;
 }
 
-.faq>details:nth-of-type(odd) summary::after { 
-  content: url("../2.2/img/open-purple.svg");
-  float: right;
+.details:nth-of-type(odd) summary::after { 
+  content: "";
+  background-image: url("../2.2/img/open-purple.svg");
+  position:absolute;
+  top: -9px;
+  right: 0;
   width: 46px;
   height: 46px;
   }
 
-  .faq>details:nth-of-type(even) summary::after {
+.details:nth-of-type(even) summary::after {
     content: url("../2.2/img/open.svg");
-    float: right;
+    position:absolute;
+    top: -9px;
+    right: 0;
     width: 46px;
     height: 46px;
 }
