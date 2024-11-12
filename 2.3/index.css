@@ -1,0 +1,28 @@
+.body {
+  margin: auto;
+  padding: 0.5em;
+  align-content: center;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 35px;
+  color: rgb(56, 56, 56);
+  background-image: url("img/12151159_4880206.jpg");
+  background-position: center;
+  background-size:cover;
+}
+
+.link {
+  text-decoration: none;
+  white-space: pre-line;
+  color: rgb(145, 145, 145);
+  font-family: fantasy;
+}
+
+.link:hover {
+  color: rgb(0, 0, 0);
+  
+  
+}
+.link:active {
+  color: aqua;
+}
