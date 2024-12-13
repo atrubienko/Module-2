@@ -1,0 +1,540 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+  width: 1440px;
+  height: 6632px;
+  background-color: #1B1A1B;
+  color: #FFFFFF;
+  font-family:Arial,
+  system-ui, 
+  -apple-system, 
+  BlinkMacSystemFont, 
+  'Segoe UI', 
+  Roboto, 
+  Oxygen, 
+  Ubuntu, 
+  Cantarell, 
+  'Open Sans', 
+  'Helvetica Neue', 
+  sans-serif;
+}
+
+h2,p {
+  margin: 0;
+}
+
+.wrapper {
+  width: 1200px;
+  padding: 30px;
+  margin: 0 auto;
+} 
+
+.banner {
+  position: absolute;
+  width: 1180px;
+  height: 823px;
+  left: 130px;
+  right: 130px;
+  top: 146px;
+  bottom: 5663px;
+}
+
+.banner>h1 {
+  position: absolute;
+  width: 883px;
+  height: 150px;
+  left: 0;
+  top: 0;
+  right: 297px;
+  bottom: 673px;
+  margin: 0;
+  color: rgb(255, 255, 255);
+  font-size: 150px;
+  font-weight: 900;
+  line-height: 100%;
+  letter-spacing: -0.1em;
+  text-align: center;
+}
+
+.banner>p {
+  position: absolute;
+  width: 369px;
+  height: 50px;
+  left: 100px;
+  right: 711px;
+  top: 150px;
+  bottom: 623px;
+  color: rgb(255, 255, 255);
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 50px;
+  text-align: left;
+}
+
+.banner::after {
+  content: "";
+  background-image: url("./img/banner.png");
+  position: absolute;
+  width: 675px;
+  height: 762px;
+  top: 61px;
+  left: 505px;
+}
+
+.halls {
+  position: absolute;
+  width: 1180px;
+  height: 3136px;
+  left: 130px;
+  right: 130px;
+  top: 1069px;
+  bottom: 2427px;
+}
+
+.halls>h2 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 125%;
+  text-transform: uppercase;
+  text-align: center;
+  color: #fff;
+}
+
+.vibes {
+  position: absolute;
+  width: 1180px;
+  height: 710px;
+  top: 116px;
+}
+
+.halls ul {
+  padding-left: 0;
+  list-style:none;
+}
+
+.vibes-link {
+  position: absolute;
+  width: 211px;
+  height: 160px;
+  left: 484px;
+  right: 485px;
+  top: 275px;
+  bottom: 275px;
+  color: rgb(255, 255, 255);
+  font-size: 70px;
+  font-weight: 700;
+  line-height: 80px;
+  letter-spacing: 0;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.star-wars {
+  position: absolute;
+  width: 1180px;
+  height: 710px;
+  top: 886px;
+}
+
+.star-wars-link {
+  position: absolute;
+  width: 252px;
+  height: 160px;
+  left: 464px;
+  right: 464px;
+  top: 275px;
+  bottom: 275px;
+  color: rgb(255, 255, 255);
+  font-size: 70px;
+  font-weight: 700;
+  line-height: 80px;
+  letter-spacing: 0;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.wild-west {
+  position: absolute;
+  width: 1180px;
+  height: 710px;
+  top: 1656px;
+}
+
+.wild-west-link {
+  position: absolute;
+  width: 203px;
+  height: 160px;
+  left: 488px;
+  right: 489px;
+  top: 275px;
+  bottom: 275px;
+  color: rgb(255, 255, 255);
+  font-size: 70px;
+  font-weight: 700;
+  line-height: 80px;
+  letter-spacing: 0;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.neon-style {
+  position: absolute;
+  width: 1180px;
+  height: 710px;
+  top: 2426px;
+}
+
+.neon-style-link {
+  position: absolute;
+  width: 226px;
+  height: 160px;
+  left: 477px;
+  right: 477px;
+  top: 275px;
+  bottom: 275px;
+  color: rgb(255, 255, 255);
+  font-size: 70px;
+  font-weight: 700;
+  line-height: 80px;
+  letter-spacing: 0;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.form {
+  position: absolute;
+  width: 1440px;
+  height: 455px;
+  left: 0;
+  right: 0;
+  top: 4305px;
+  bottom: 1872px;
+}
+
+.form>h2 {
+  position: absolute;
+  width: 980px;
+  height: 56px;
+  left: 230px;
+  right: 230px;
+  top: 0;
+  color: rgb(255, 255, 255);
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 50px;
+  letter-spacing: 0;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.form>form {  /*Размеры и положение взял произвольные, т.к. в макете вставлен скрин формы и не вижу точных размеров формы*/
+  position: absolute;
+  width: 1136px;
+  height: 349px;
+  top: 106px;
+  left: 152px;
+  right: 152px;
+}
+
+.about {
+  position: absolute;
+  width: 1180px;
+  height: 546px;
+  left: 130px;
+  right: 130px;
+  top: 4860px;
+  bottom: 1226px;
+}
+
+.about>h2 {
+  position: absolute;
+  width: 980px;
+  height: 56px;
+  color: rgb(255, 255, 255);
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 50px;
+  letter-spacing: 0;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.about-paragraphs {
+  position: absolute;
+  width: 1180px;
+  height: 140px;
+  top: 106px;
+  bottom: 300px;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0;
+  text-align: left;
+}
+
+.blockquote {
+  position: absolute;
+  width: 1180px;
+  height: 230px;
+  top: 316px;
+  bottom: 124px;
+  margin: 0;
+}
+
+.blockquote p:first-child {
+  position: absolute;
+  width: 1125px;
+  height: 98px;
+  top: 8px;
+  left: 55px;
+  margin: 0;
+  font-size: 44px;
+  font-weight: 400;
+  line-height: 50px;
+  letter-spacing: 0;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.blockquote::after {
+  content:"“";
+  position: absolute;
+  width: 38.98px;
+  height: 34.41px;
+  color: rgb(108, 2, 135);
+  font-size: 44px;
+  font-weight: 900;
+  line-height: 50px;
+  letter-spacing: 0;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+
+.quote::after {
+  content:" ”";
+  position: absolute;
+  color: rgb(108, 2, 135);
+  font-size: 44px;
+  font-weight: 900;
+  line-height: 50px;
+  letter-spacing: 0;
+  text-align: left;
+  text-transform: uppercase;
+  white-space: pre;
+}
+
+
+.blockquote p:last-child {
+  position: absolute;
+  width: 279.28px;
+  height: 84px;
+  top: 146px;
+  left: 900.72px;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0;
+  text-align: left;
+}
+
+.boss-photo {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  left: 791px;
+  right: 309px;
+  top: 148px;
+  bottom: 2px;
+}
+
+.faq {
+  position: absolute;
+  width: 1180px;
+  height: 611px;
+  left: 130px;
+  right: 130px;
+  top: 5506px;
+  bottom: 515px;
+}
+
+.faq>h2 {
+  position: absolute;
+  width: 980px;
+  height: 56px;
+  left: 100px;
+  right: 100px;
+  color: rgb(255, 255, 255);
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 50px;
+  letter-spacing: 0;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.faq-questions-block {
+  position: absolute;
+  top: 96px;
+  left: 0;
+  right: 0;
+
+}
+
+.contacts {
+  position: absolute;
+  width: 1125.74px;
+  height: 364px;
+  left: 130px;
+  right: 184.26px;
+  top: 6217px;
+  bottom: 51px;
+}
+
+.contacts>h2 {
+  position: absolute;
+  width: 1070.74px;
+  height: 56px;
+  left: 55px;
+  color: rgb(255, 255, 255);
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 50px;
+  letter-spacing: 0;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+address {
+  font-style: normal;
+}
+
+.address::before {
+  content: url(./img/location.svg);
+  position: absolute;
+  width: 34.96px;
+  height: 32px;
+  top: 123px;
+  bottom: 209px;
+
+}
+.address>p {
+  position: absolute;
+  width: 415.19px;
+  height: 61px;
+  left: 65.56px;
+  right: 645px;
+  top: 110px;
+  bottom: 193px;
+  color: rgb(255, 255, 255);
+  font-style: normal;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 0;
+  text-align: left;
+}
+.tel::before {
+  content: url(./img/phone-call.svg);
+  position: absolute;
+  width: 34.96px;
+  height: 32px;
+  top: 206px;
+  bottom: 130px;
+}
+.tel>a {
+  position: absolute;
+  width: 415.19px;
+  height: 28px;
+  top: 209px;
+  left: 65.56px;
+  right: 645px;
+  bottom: 127px;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 0;
+  text-align: left;
+}
+
+.mail::before {
+  content: url(./img/mail.svg);
+  position: absolute;
+  width: 34.96px;
+  height: 32px;
+  top: 248px;
+  left: 4.37px;
+  bottom: 84px;
+}
+.mail>a {
+  position: absolute;
+  width: 415.19px;
+  height: 28px;
+  top: 248px;
+  left: 65.56px;
+  right: 645px;
+  bottom: 88px;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 0;
+  text-align: left;
+}
+
+.contacts>ul {
+  padding-left: 0;
+  list-style:none;
+}
+
+.vk {
+  position: absolute;
+  width: 48px;
+  height: 48px;
+  top: 316px;
+  left: 1px;
+  bottom: 0;
+  right: 1076.74px;
+}
+
+.telegramm {
+  position: absolute;
+  width: 48px;
+  height: 48px;
+  top: 315px;
+  left: 76px;
+  bottom: 1px;
+  right: 1001.74px;
+}
+
+.pinterest {
+  position: absolute;
+  width: 48px;
+  height: 48px;
+  top: 315px;
+  left: 152px;
+  bottom: 1px;
+  right: 923.74px;
+}
+
+.stumble {
+  position: absolute;
+  width: 48px;
+  height: 48px;
+  top: 315px;
+  left: 228px;
+  bottom: 1px;
+  right: 847.74px;
+}
