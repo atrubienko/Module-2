@@ -1,13 +1,23 @@
-* {
+:root {
+  position: relative;
   box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-tap-highlight-color: transparent;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
 }
 
 body {
   position: relative;
-  width: 1440px;
-  height: 6632px;
-  background-color: #1B1A1B;
-  color: #FFFFFF;
+  min-width: 320px;
+  min-height: 100vh;
   font-family:Arial,
   system-ui, 
   -apple-system, 
@@ -20,18 +30,80 @@ body {
   'Open Sans', 
   'Helvetica Neue', 
   sans-serif;
+  font-size: 20px;
+  width: 1440px;
+  height: 6632px;
+  background-color: #1B1A1B;
+  color: #FFFFFF;
+  
 }
 
-h2,p {
+img,
+svg {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+svg {
+  max-height: 100%;
+}
+
+
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
   margin: 0;
 }
 
-.wrapper {
-  width: 1200px;
-  padding: 30px;
-  margin: 0 auto;
-} 
+h1,
+h2,
+h3,
+p,
+figure,
+fieldset {
+  margin: 0;
+}
 
+iframe {
+  border: none;
+}
+
+/*
+Доступно скрываю элементы
+*/
+
+.visually-hidden {
+  position: fixed;
+  transform: scale(0);
+}
+
+
+/*
+Пример контейнера
+
+Если контейнер 1180px по макету,
+то для max-width прибавляем паддинги 30px*2, 
+в итоге 1240px
+Чтобы контент не прижимался к краям экрана
+*/
+
+.container {
+  max-width: 1240px;
+  padding: 0 30px;
+  margin: 0 auto;
+}
+html {
+  position:relative;
+  width: 1440px;
+  height: 6632px;
+}
 .banner {
   position: absolute;
   width: 1180px;
@@ -51,7 +123,6 @@ h2,p {
   right: 297px;
   bottom: 673px;
   margin: 0;
-  color: rgb(255, 255, 255);
   font-size: 150px;
   font-weight: 900;
   line-height: 100%;
@@ -67,7 +138,6 @@ h2,p {
   right: 711px;
   top: 150px;
   bottom: 623px;
-  color: rgb(255, 255, 255);
   font-size: 28px;
   font-weight: 400;
   line-height: 50px;
@@ -100,7 +170,6 @@ h2,p {
   line-height: 125%;
   text-transform: uppercase;
   text-align: center;
-  color: #fff;
 }
 
 .vibes {
@@ -123,7 +192,6 @@ h2,p {
   right: 485px;
   top: 275px;
   bottom: 275px;
-  color: rgb(255, 255, 255);
   font-size: 70px;
   font-weight: 700;
   line-height: 80px;
@@ -148,7 +216,6 @@ h2,p {
   right: 464px;
   top: 275px;
   bottom: 275px;
-  color: rgb(255, 255, 255);
   font-size: 70px;
   font-weight: 700;
   line-height: 80px;
@@ -173,7 +240,6 @@ h2,p {
   right: 489px;
   top: 275px;
   bottom: 275px;
-  color: rgb(255, 255, 255);
   font-size: 70px;
   font-weight: 700;
   line-height: 80px;
@@ -198,7 +264,6 @@ h2,p {
   right: 477px;
   top: 275px;
   bottom: 275px;
-  color: rgb(255, 255, 255);
   font-size: 70px;
   font-weight: 700;
   line-height: 80px;
@@ -225,7 +290,6 @@ h2,p {
   left: 230px;
   right: 230px;
   top: 0;
-  color: rgb(255, 255, 255);
   font-size: 40px;
   font-weight: 700;
   line-height: 50px;
@@ -241,6 +305,7 @@ h2,p {
   top: 106px;
   left: 152px;
   right: 152px;
+  font-size: 16px;
 }
 
 .about {
@@ -257,7 +322,6 @@ h2,p {
   position: absolute;
   width: 980px;
   height: 56px;
-  color: rgb(255, 255, 255);
   font-size: 40px;
   font-weight: 700;
   line-height: 50px;
@@ -272,7 +336,6 @@ h2,p {
   height: 140px;
   top: 106px;
   bottom: 300px;
-  color: rgb(255, 255, 255);
   font-size: 20px;
   font-weight: 400;
   line-height: 28px;
@@ -339,8 +402,6 @@ h2,p {
   height: 84px;
   top: 146px;
   left: 900.72px;
-  color: rgb(255, 255, 255);
-  font-size: 20px;
   font-weight: 400;
   line-height: 28px;
   letter-spacing: 0;
@@ -373,7 +434,6 @@ h2,p {
   height: 56px;
   left: 100px;
   right: 100px;
-  color: rgb(255, 255, 255);
   font-size: 40px;
   font-weight: 700;
   line-height: 50px;
@@ -405,7 +465,6 @@ h2,p {
   width: 1070.74px;
   height: 56px;
   left: 55px;
-  color: rgb(255, 255, 255);
   font-size: 40px;
   font-weight: 700;
   line-height: 50px;
@@ -435,7 +494,6 @@ address {
   right: 645px;
   top: 110px;
   bottom: 193px;
-  color: rgb(255, 255, 255);
   font-style: normal;
   font-size: 24px;
   font-weight: 700;
@@ -459,8 +517,6 @@ address {
   left: 65.56px;
   right: 645px;
   bottom: 127px;
-  color: rgb(255, 255, 255);
-  text-decoration: none;
   font-size: 24px;
   font-weight: 700;
   line-height: 28px;
@@ -485,8 +541,6 @@ address {
   left: 65.56px;
   right: 645px;
   bottom: 88px;
-  color: rgb(255, 255, 255);
-  text-decoration: none;
   font-size: 24px;
   font-weight: 700;
   line-height: 28px;
