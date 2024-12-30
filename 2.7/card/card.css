@@ -1,0 +1,73 @@
+.card__img_vibes{
+  position: absolute;
+  width: 1180px;
+  height: 710px;
+}
+
+.card__link_vibes{
+  position: absolute;
+  width: 211px;
+  height: 160px;
+  left: 484px;
+  right: 485px;
+  top: 275px;
+  bottom: 275px;
+  font-size: 70px;
+  font-weight: 700;
+  line-height: 80px;
+  letter-spacing: 0;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.card__link_star-wars {
+  position: absolute;
+  width: 252px;
+  height: 160px;
+  left: 464px;
+  right: 464px;
+  top: 275px;
+  bottom: 275px;
+  font-size: 70px;
+  font-weight: 700;
+  line-height: 80px;
+  letter-spacing: 0;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.card__link_wild-west{
+  position: absolute;
+  width: 203px;
+  height: 160px;
+  left: 488px;
+  right: 489px;
+  top: 275px;
+  bottom: 275px;
+  font-size: 70px;
+  font-weight: 700;
+  line-height: 80px;
+  letter-spacing: 0;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.card__link_neon{
+  position: absolute;
+  width: 226px;
+  height: 160px;
+  left: 477px;
+  right: 477px;
+  top: 275px;
+  bottom: 275px;
+  font-size: 70px;
+  font-weight: 700;
+  line-height: 80px;
+  letter-spacing: 0;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+}

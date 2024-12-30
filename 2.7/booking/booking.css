@@ -1,0 +1,34 @@
+.booking {
+  position: absolute;
+  width: 1440px;
+  height: 455px;
+  left: 0;
+  right: 0;
+  top: 4305px;
+  bottom: 1872px;
+}
+
+.booking__title {
+  position: absolute;
+  width: 980px;
+  height: 56px;
+  left: 230px;
+  right: 230px;
+  top: 0;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 50px;
+  letter-spacing: 0;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.booking__form {  /*Размеры и положение взял произвольные, т.к. в макете вставлен скрин формы и не вижу точных размеров формы*/
+  position: absolute;
+  width: 1136px;
+  height: 349px;
+  top: 106px;
+  left: 152px;
+  right: 152px;
+  font-size: 16px;
+}

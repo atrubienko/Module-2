@@ -1,0 +1,24 @@
+.navigation-back {
+  position: absolute;
+  width: 154px;
+  height: 24px;
+  left: 75px;
+  right: 1691px;
+  top: 563px;
+  bottom: 1089px;
+}
+
+.navigation-back__img-backspace {
+  vertical-align: middle; 
+}
+
+.navigation-back__link {
+  text-decoration: none;
+  color: rgb(45, 45, 45);
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 130%;
+  letter-spacing: 0;
+  text-align: left;
+}

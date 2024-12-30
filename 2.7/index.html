@@ -16,48 +16,40 @@
     <div class="container">
       <header>
         <div class="banner">
-          <h1>GAME OVER</h1>
-          <p>Новый формат игр и отдыха</p>
+          <h1 class="banner__title">GAME OVER</h1>
+          <p class="banner__text">Новый формат игр и отдыха</p>
         </div>
       </header>
 
       <main>
 
         <section class="halls">
-          <h2 id="one">Наши залы</h2>
+          <h2 class="halls__title" id="one">Наши залы</h2>
           <nav>
-            <ul>
-              <li>
-                <div class="vibes">
-                  <img src="./img/80s-vibes.jpg" alt="Атрибутика восьмидесятых" width="1180" height="710">
-                  <a href="./rooms/vibes.html" class="vibes-link">80’s vibes</a>
-                </div>
+            <ul class="halls__list">
+              <li class="halls__item card">
+                  <img class="card__img_vibes" src="./card/img/80s-vibes.jpg" alt="Атрибутика восьмидесятых" width="1180" height="710">
+                  <a class="card__link_vibes" href="./halls/vibes.html">80’s vibes</a>
               </li>
-              <li>
-                <div class="star-wars">
-                  <img src="./img/star-wars.jpg" alt="Зал, стилизованный в духе звездных войн" width="1180" height="710">
-                  <a href="./rooms/starwars.html" class="star-wars-link">Star wars</a> 
-                </div>
+              <li class="halls__item  card">
+                  <img class="card__img_star-wars" src="./card/img/star-wars.jpg" alt="Зал, стилизованный в духе звездных войн" width="1180" height="710">
+                  <a class="card__link_star-wars" href="./halls/starwars.html">Star wars</a>
               </li>
-              <li>
-                <div class="wild-west">
-                  <img src="./img/wild-west.jpg" alt="Декорации в стиле дикого запада" width="1180" height="710">
-                  <a href="./rooms/wildwest.html" class="wild-west-link">Wild west</a> 
-                </div>
+              <li class="halls__item  card">
+                  <img class="card__img_wild-west" src="./card/img/wild-west.jpg" alt="Декорации в стиле дикого запада" width="1180" height="710">
+                  <a class="card__link_wild-west" href="./halls/wildwest.html">Wild west</a> 
               </li>
-              <li>
-                <div class="neon-style">
-                  <img src="./img/neon.jpg" alt="Неоновая вывеска с изображением кедов" width="1180" height="710">
-                  <a href="./rooms/neon.html" class="neon-style-link">Neon style</a> 
-                </div>
+              <li class="halls__item  card">
+                  <img class="card__img_neon" src="./card/img/neon.jpg" alt="Неоновая вывеска с изображением кедов" width="1180" height="710">
+                  <a class="card__link_neon" href="./halls/neon.html">Neon style</a> 
               </li>
             </ul>
           </nav>
         </section>
 
-        <section class="form">
-          <h2 id="three">ЗАБРОНИРОВАТЬ</h2>
-          <form method="post" action="https://jsonplaceholder.typicode.com/posts">
+        <section class="booking">
+          <h2 class="booking__title" id="three">ЗАБРОНИРОВАТЬ</h2>
+          <form class="booking__form" method="post" action="https://jsonplaceholder.typicode.com/posts">
 
             <fieldset>
               <legend>Выбери зал</legend>
@@ -177,45 +169,45 @@
         </section>
 
         <section class="about">
-          <h2 id="two">О нас</h2>
-          <div class="about-paragraphs">
+          <h2 class="about__title" id="two">О нас</h2>
+          <div class="about__paragraphs">
             <p>Для наших гостей мы создали <em>концептуально новое игровое пространство виртуальной реальности
             </em> в центральной части города</p>
             <br>
             <p>Каждый день мы стараемся создавать для вас самую лучшую игровую атмосферу и радовать Вас топовыми игровыми разработками со всего мира.
             </p>
           </div>
-          <blockquote class="blockquote">
-            <p class="quote"> GAME OVER — <br>это место незабываемых впечатлений </p>
-            <img class="boss-photo" src="./img/boss.png" alt="Фото создателя игровой территории" width="80" height="80">
-            <p>Аркадий Абакшин,<br> создатель игровой <br> территории GAME OVER</p>
+          <blockquote class="about__blockquote quote">
+            <p class="quote__paragraph"> GAME OVER — <br>это место незабываемых впечатлений </p>
+            <img class="quote__img" src=".//about/img/boss.png" alt="Фото создателя игровой территории" width="80" height="80">
+            <p class="quote__epigraph">Аркадий Абакшин,<br> создатель игровой <br> территории GAME OVER</p>
           </blockquote>
         </section>
 
         <section class="faq">
-          <h2>Частые вопросы</h2>
-          <div class="faq-questions-block">
-            <details class="details">
+          <h2 class="faq__title">Частые вопросы</h2>
+          <div class="faq__questions-block questions-block">
+            <details class="questions-block__details">
               <summary>Можно ли забронировать комнату онлайн?</summary>
               <p>Текст</p>
             </details>
 
-            <details class="details">
+            <details class="questions-block__details">
               <summary>Могут ли мне вернуть деньги за бронь?</summary>
               <p>Текст</p>
             </details>
 
-            <details class="details">
+            <details class="questions-block__details">
               <summary>Какая комната самая популярная?</summary>
               <p>Текст</p>
             </details>
 
-            <details class="details">
+            <details class="questions-block__details">
               <summary>Как получить VIP карту?</summary>
               <p>Текст</p>
             </details>
 
-            <details class="details">
+            <details class="questions-block__details">
               <summary>Какая комната самая популярная?</summary>
               <p>Текст</p>
             </details>
@@ -226,23 +218,23 @@
 
       <footer>
         <section class="contacts">
-          <h2 id="five">Контакты</h2>
-          <address>
-            <div class="address">
+          <h2 class="contacts__title" id="five">Контакты</h2>
+          <address class="contacts__address address">
+            <div class="address__street">
               <p>г. Москва<br> ул. Аквамарина, 16</p>
             </div>
-            <div class="tel">
-              <a href="tel:89509302893">8 (950) 930 - 28 - 93</a>
+            <div class="address__tel tel">
+              <a class="tel__link" href="tel:89509302893">8 (950) 930 - 28 - 93</a>
             </div>
           </address>
-          <div class="mail">
-            <a href="mailto:GameOver@gmail.com">GameOver@gmail.com</a>
+          <div class="address__mail mail">
+            <a class="mail__link" href="mailto:GameOver@gmail.com">GameOver@gmail.com</a>
           </div>
-          <ul>
-            <li class="vk"><a  href="https://vk.com" target="_blank"> <img src="./img/vk-with-circle.svg" alt="логотип ВК" width="48" height="48"></a></li>
-            <li class="telegramm"><a  href="https://t.me" target="_blank"><img src="./img/telegram.svg" alt="логотип телеграмм" width="48" height="48"></a></li>
-            <li class="pinterest"><a  href="https://pinterest.com/" target="_blank"> <img src="./img/social-pinterest.svg" alt="логотип пинтерест" width="48" height="48"></a></li>
-            <li class="stumble"><a  href="https://stumbleupon.com/" target="_blank"><img src="./img/social-stumbleupon.svg" alt="логотип StumbleUpon" width="48" height="48"></a></li>
+          <ul class="contacts__list">
+            <li class="contacts__item social"><a class="social__link_vk"  href="https://vk.com" target="_blank"> <img class="social__img_vk" src="./img/vk-with-circle.svg" alt="логотип ВК" width="48" height="48"></a></li>
+            <li class="contacts__item social"><a class="social__link_tg" href="https://t.me" target="_blank"><img class="social__img_tg" src="./img/telegram.svg" alt="логотип телеграмм" width="48" height="48"></a></li>
+            <li class="contacts__item social"><a class="social__link_pin" href="https://pinterest.com/" target="_blank"> <img class="social__img_pin" src="./img/social-pinterest.svg" alt="логотип пинтерест" width="48" height="48"></a></li>
+            <li class="contacts__item social"><a class="social__link_stumble" href="https://stumbleupon.com/" target="_blank"><img class="social__img_stumble" src="./img/social-stumbleupon.svg" alt="логотип StumbleUpon" width="48" height="48"></a></li>
           </ul>
         </section>
       </footer>

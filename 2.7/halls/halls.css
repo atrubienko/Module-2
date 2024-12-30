@@ -1,0 +1,28 @@
+.halls {
+  position: absolute;
+  width: 1180px;
+  height: 3136px;
+  left: 130px;
+  right: 130px;
+  top: 1069px;
+  bottom: 2427px;
+}
+
+.halls__title {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 125%;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.halls__list {
+  margin-top: 60px;
+}
+
+.halls__item {
+  position: relative;
+  width: 1180px;
+  height: 710px;
+  margin-bottom: 60px;
+}

@@ -1,0 +1,28 @@
+@import "./normalize.css";
+@import "./page/page.css";
+@import "./article/article.css";
+@import "./navigation-back/navigation-back.css";
+
+@font-face {
+  font-family: Lato;
+  src: local("Lato bold"), local("Lato-bold"),
+  url(./fonts/lato-bold.woff2) format("woff2"),
+  url(./fonts/lato-bold.woff) format("woff");
+  font-weight: 700;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Lato;
+  src: local("Lato regular"), local("Lato-regular"),
+  url(./fonts/lato-regular.woff2) format("woff2"),
+  url(./fonts/lato-regular.woff) format("woff");
+  font-weight: 400;
+  font-display: swap;
+}
+
+
+
+
+
+

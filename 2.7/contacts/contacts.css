@@ -1,0 +1,165 @@
+.contacts {
+  position: absolute;
+  width: 1125.74px;
+  height: 364px;
+  left: 130px;
+  right: 184.26px;
+  top: 6217px;
+  bottom: 51px;
+}
+
+.contacts__title {
+  position: absolute;
+  width: 1070.74px;
+  height: 56px;
+  left: 55px;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 50px;
+  letter-spacing: 0;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.contacts__address {
+  font-style: normal;
+}
+
+.contacts__address::before {
+  content: url(./img/location.svg);
+  position: absolute;
+  width: 34.96px;
+  height: 32px;
+  top: 123px;
+  bottom: 209px;
+
+}
+.address__street {
+  position: absolute;
+  width: 415.19px;
+  height: 61px;
+  left: 65.56px;
+  right: 645px;
+  top: 110px;
+  bottom: 193px;
+  font-style: normal;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 0;
+  text-align: left;
+}
+.address__tel::before {
+  content: url(./img/phone-call.svg);
+  position: absolute;
+  width: 34.96px;
+  height: 32px;
+  top: 206px;
+  bottom: 130px;
+}
+.tel__link {
+  position: absolute;
+  width: 415.19px;
+  height: 28px;
+  top: 209px;
+  left: 65.56px;
+  right: 645px;
+  bottom: 127px;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 0;
+  text-align: left;
+}
+
+.address__mail::before {
+  content: url(./img/mail.svg);
+  position: absolute;
+  width: 34.96px;
+  height: 32px;
+  top: 248px;
+  left: 4.37px;
+  bottom: 84px;
+}
+.mail__link {
+  position: absolute;
+  width: 415.19px;
+  height: 28px;
+  top: 248px;
+  left: 65.56px;
+  right: 645px;
+  bottom: 88px;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 0;
+  text-align: left;
+}
+
+.contacts__list {
+  position: absolute;
+  display: inline;
+  padding-left: 0;
+  list-style:none;
+  width: 240px;
+  height: 49px;
+  top: 316px;
+  left: 1px;
+}
+
+.contacts__item {
+  display: inline;
+  padding-left: 0;
+  margin-right: 76px;
+  width: 48px;
+  height: 48px;
+}
+
+.social__link_vk {
+  position: absolute;
+  width: 48px;
+  height: 48px;
+}
+
+.social__img_vk {
+  position: absolute;
+  width: 48px;
+  height: 48px;
+}
+
+.social__link_tg {
+  position: absolute;
+  width: 48px;
+  height: 48px;
+
+}
+
+.social__img_tg {
+  position: absolute;
+  width: 48px;
+  height: 48px;
+}
+
+.social__link_pin {
+  position: absolute;
+  width: 48px;
+  height: 48px;
+}
+
+.social__img_pin {
+  position: absolute;
+  width: 48px;
+  height: 48px;
+}
+
+.social__link_stumble {
+  position: absolute;
+  width: 48px;
+  height: 48px;
+}
+
+.social__img_stumble {
+  position: absolute;
+  width: 48px;
+  height: 48px;
+}

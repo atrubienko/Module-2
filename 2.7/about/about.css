@@ -1,0 +1,109 @@
+.about {
+  position: relative;
+  width: 1180px;
+  height: 546px;
+  left: 130px;
+  right: 130px;
+  top: 4860px;
+  bottom: 1226px;
+}
+
+.about__title {
+  position: absolute;
+  width: 980px;
+  height: 56px;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 50px;
+  letter-spacing: 0;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.about__paragraphs {
+  position: absolute;
+  width: 1180px;
+  height: 140px;
+  top: 106px;
+  bottom: 300px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0;
+  text-align: left;
+}
+
+.about__blockquote {
+  position: absolute;
+  width: 1180px;
+  height: 230px;
+  top: 316px;
+  bottom: 124px;
+  margin: 0;
+}
+
+.quote__paragraph {
+  position: absolute;
+  width: 1125px;
+  height: 98px;
+  top: 8px;
+  left: 55px;
+  margin: 0;
+  font-size: 44px;
+  font-weight: 400;
+  line-height: 50px;
+  letter-spacing: 0;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.about__blockquote::after {
+  content:"“";
+  position: absolute;
+  width: 38.98px;
+  height: 34.41px;
+  color: rgb(108, 2, 135);
+  font-size: 44px;
+  font-weight: 900;
+  line-height: 50px;
+  letter-spacing: 0;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+
+.quote__paragraph::after {
+  content:" ”";
+  position: absolute;
+  color: rgb(108, 2, 135);
+  font-size: 44px;
+  font-weight: 900;
+  line-height: 50px;
+  letter-spacing: 0;
+  text-align: left;
+  text-transform: uppercase;
+  white-space: pre;
+}
+
+
+.quote__epigraph {
+  position: absolute;
+  width: 279.28px;
+  height: 84px;
+  top: 146px;
+  left: 900.72px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0;
+  text-align: left;
+}
+
+.quote__img {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  left: 791px;
+  right: 309px;
+  top: 148px;
+  bottom: 2px;
+}
