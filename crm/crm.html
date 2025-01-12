@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="preload" href="./fonts/Inter-Bold.woff2" as="font">
+  <link rel="preload" href="./fonts/Inter-SemiBold.woff2" as="font">
+  <link rel="stylesheet" href="index.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>crm</title>
+
+</head>
+<body class="body">
+  <div class="container">
+    <h1 class="title">ДОБАВИТЬ ТОВАР</h1>
+    <img class="img-exit" src="./img/exit.svg" alt="">
+    <form class="add-product-form" method="post" action="https://jsonplaceholder.typicode.com/posts">
+      <fieldset class="add-product-form__fieldset add-product-fieldset">
+        <label class="add-product-fieldset__label-name label-name">Наименование
+          <input class="label-name__input" type="text" name="name">
+        </label>
+        <label class="add-product-fieldset__label-category label-category">Категория
+          <input class="label-category__input" type="text" name="category">
+        </label>
+        <label class="add-product-fieldset__label-unit label-unit">Единицы измерения
+          <input class="label-unit__input" type="text" name="unit">
+        </label>
+        <label class="add-product-fieldset__label-discount label-discount">
+          <input class="label-discount__checkbox" id="discount-checkbox" type="checkbox" name="discount" value="discount">Дисконт
+        </label>
+        <label class="add-product-fieldset__label-discount-text label-discount-text">
+          <input class="label-discount-text__input" id="discount-text" type="text" name="discount" disabled>
+        </label>
+        <script class="script">
+          document.getElementById("discount-checkbox").onchange = function() {
+          document.getElementById("discount-text").disabled = !this.checked;
+          };
+        </script>
+        <label class="add-product-fieldset__label-description label-description">Описание
+          <input class="label-description__input" type="text" name="description">
+        </label>
+        <label class="add-product-fieldset__label-count label-count">Количество
+          <input class="label-count__input" type="text" name="count">
+        </label>
+        <label class="add-product-fieldset__label-price label-price">Цена
+          <input class="label-price__input" type="text" name="price">
+        </label>
+      </fieldset>
+      <button class="add-product-form__submit-button" type="submit">Добавить товар</button>
+    </form>
+  </div>
+</body>
+</html>

@@ -1,0 +1,187 @@
+.add-product-fieldset__label-name {
+  box-sizing: border-box;
+  position: absolute;
+  width: 240px;
+  min-height: 15px;
+  left: 38px;
+  top: 28px;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 15px;
+  letter-spacing: 5;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.label-name__input {
+  box-sizing: border-box;
+  position: absolute;
+  width: 524px;
+  min-height: 40px;
+  left: -10px;
+  top: 20px;
+  border-radius: 6px;
+  background: rgb(244, 242, 255);
+  border-width: 0;
+}
+
+.add-product-fieldset__label-category {
+  box-sizing: border-box;
+  position: absolute;
+  width: 240px;
+  min-height: 15px;
+  left: 38px;
+  top: 100px;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 15px;
+  letter-spacing: 5;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.label-category__input {
+  box-sizing: border-box;
+  position: absolute;
+  width: 524px;
+  min-height: 40px;
+  left: -10px;
+  top: 20px;
+  border-radius: 6px;
+  background: rgb(244, 242, 255);
+  border-width: 0;
+}
+
+.add-product-fieldset__label-unit {
+  box-sizing: border-box;
+  position: absolute;
+  width: 240px;
+  min-height: 15px;
+  left: 38px;
+  top: 172px;
+  font-weight: 600;
+  line-height: 15px;
+  letter-spacing: 5;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.label-unit__input {
+  box-sizing: border-box;
+  position: absolute;
+  width: 524px;
+  min-height: 40px;
+  left: -10px;
+  top: 20px;
+  border-radius: 6px;
+  background: rgb(244, 242, 255);
+  border-width: 0;
+}
+
+.add-product-fieldset__label-discount {
+  box-sizing: border-box;
+  position: absolute;
+  width: 240px;
+  min-height: 15px;
+  left: 38px;
+  top: 244px;
+  font-weight: 600;
+  line-height: 15px;
+  letter-spacing: 5;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.label-discount-text__input {
+  box-sizing: border-box;
+  position: absolute;
+  width: 474px;
+  min-height: 40px;
+  left: 78px;
+  top: 264px;
+  border-radius: 6px;
+  background: rgb(244, 242, 255);
+  border-width: 0;
+}
+
+.label-discount-text__input:disabled {
+  background: rgb(238, 238, 238);
+}
+
+.add-product-fieldset__label-description {
+  box-sizing: border-box;
+  position: absolute;
+  width: 240px;
+  min-height: 15px;
+  left: 38px;
+  top: 316px;
+  font-weight: 600;
+  line-height: 15px;
+  letter-spacing: 5;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.label-description__input {
+  box-sizing: border-box;
+  position: absolute;
+  width: 524px;
+  min-height: 112px;
+  left: -10px;
+  top: 20px;
+  border-radius: 6px;
+  background: rgb(244, 242, 255);
+  border-width: 0;
+}
+
+.add-product-fieldset__label-count {
+  box-sizing: border-box;
+  position: absolute;
+  width: 240px;
+  min-height: 15px;
+  left: 38px;
+  top: 460px;
+  font-weight: 600;
+  line-height: 15px;
+  letter-spacing: 5;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.label-count__input {
+  box-sizing: border-box;
+  position: absolute;
+  width: 524px;
+  min-height: 40px;
+  left: -10px;
+  top: 20px;
+  border-radius: 6px;
+  background: rgb(244, 242, 255);
+  border-width: 0;
+}
+
+.add-product-fieldset__label-price {
+  box-sizing: border-box;
+  position: absolute;
+  width: 240px;
+  min-height: 15px;
+  left: 38px;
+  top: 532px;
+  font-weight: 600;
+  line-height: 15px;
+  letter-spacing: 5;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.label-price__input {
+  box-sizing: border-box;
+  position: absolute;
+  width: 524px;
+  min-height: 40px;
+  left: -10px;
+  top: 20px;
+  border-radius: 6px;
+  background: rgb(244, 242, 255);
+  border-width: 0;
+}
