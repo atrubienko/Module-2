@@ -1,11 +1,13 @@
 .card__img_vibes{
   position: absolute;
+  box-sizing: border-box;
   width: 1180px;
   height: 710px;
 }
 
 .card__link_vibes{
   position: absolute;
+  box-sizing: border-box;
   width: 211px;
   height: 160px;
   left: 484px;
@@ -23,6 +25,7 @@
 
 .card__link_star-wars {
   position: absolute;
+  box-sizing: border-box;
   width: 252px;
   height: 160px;
   left: 464px;
@@ -40,6 +43,7 @@
 
 .card__link_wild-west{
   position: absolute;
+  box-sizing: border-box;
   width: 203px;
   height: 160px;
   left: 488px;
@@ -57,6 +61,7 @@
 
 .card__link_neon{
   position: absolute;
+  box-sizing: border-box;
   width: 226px;
   height: 160px;
   left: 477px;

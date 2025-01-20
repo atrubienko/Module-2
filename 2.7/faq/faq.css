@@ -1,20 +1,22 @@
 @import "./questions-block/questions-block.css";
 .faq {
   position: absolute;
-  width: 1180px;
-  height: 611px;
+  box-sizing: border-box;
+  max-width: 1180px;
+  min-height: 611px;
   left: 130px;
   right: 130px;
-  top: 5506px;
-  bottom: 515px;
+  top: 5652px;
 }
 
 .faq__title {
-  position: absolute;
-  width: 980px;
-  height: 56px;
+  position: relative;
+  box-sizing: border-box;
+  max-width: 980px;
+  min-height: 56px;
   left: 100px;
   right: 100px;
+  margin-bottom: 40px;
   font-size: 40px;
   font-weight: 700;
   line-height: 50px;
@@ -25,8 +27,7 @@
 
 .faq__questions-block {
   position: absolute;
-  top: 96px;
+  box-sizing: border-box;
   left: 0;
   right: 0;
-
 }

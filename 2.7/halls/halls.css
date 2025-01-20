@@ -1,28 +1,38 @@
 .halls {
   position: absolute;
-  width: 1180px;
-  height: 3136px;
+  box-sizing: border-box;
+  max-width: 1180px;
+  min-height: 3136px;
   left: 130px;
   right: 130px;
   top: 1069px;
   bottom: 2427px;
+  margin-bottom: 100px;
 }
 
 .halls__title {
+  box-sizing: border-box;
   font-weight: 700;
   font-size: 40px;
   line-height: 125%;
   text-transform: uppercase;
   text-align: center;
+  margin-bottom: 60px;
 }
 
 .halls__list {
   margin-top: 60px;
+  box-sizing: border-box;
 }
 
 .halls__item {
   position: relative;
-  width: 1180px;
-  height: 710px;
+  box-sizing: border-box;
+  max-width: 1180px;
+  min-height: 710px;
+
+}
+
+.card:not(:last-child) {
   margin-bottom: 60px;
 }
