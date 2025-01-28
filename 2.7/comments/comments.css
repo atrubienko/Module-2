@@ -23,7 +23,7 @@
   text-transform: uppercase;
 }
 
-.ul_li-quote {
+.ul__li-quote {
   position: relative;
   box-sizing: border-box;
   width: 980px;
@@ -32,7 +32,7 @@
   padding: 0;
 }
 
-.ul_li-quote:last-child {
+.ul__li-quote:last-child {
   margin-bottom: 0;
 }
 
