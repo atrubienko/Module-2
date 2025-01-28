@@ -3,6 +3,7 @@
 @import "./card/card.css";
 @import "./booking/booking.css";
 @import "./about/about.css";
+@import "./comments/comments.css";
 @import "./faq/faq.css";
 @import "./contacts/contacts.css";
 
@@ -40,7 +41,7 @@ body {
   sans-serif;
   font-size: 20px;
   max-width: 1440px;
-  min-height: 6813px;
+  min-height: 5747px;
   background-color: #1B1A1B;
   color: #FFFFFF;
   
@@ -111,5 +112,5 @@ iframe {
 html {
   position:relative;
   width: 1440px;
-  min-height: 6813px;
+  min-height: 5747px;
 }
